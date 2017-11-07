@@ -1,0 +1,84 @@
+package University;
+
+public class University {
+String name;
+Department[] department;
+static int countDepartment;
+static int countStudent;
+public University(String name) {
+	
+	
+}
+public University() {
+	
+	
+}
+
+public String getName() {
+return name;
+}
+
+public void setName(String name) {
+	this.name=name
+}
+
+public Departments[] getDepartments() {
+	for(int i=0, i<countDepartment,i++) {
+		return Department[i];
+	}
+}
+public Student[] getStudents() {
+	for(int i=0,i<countStudent,i++) {
+		return Student[i];
+	}
+	
+}
+
+public void addDepartments(Department department) {
+	department[]
+			counter++;
+}
+
+}
+//////////////////////////////////////////////
+package University;
+
+public class Department extends University {
+String department;
+public Department(String name) {
+	this.department = name;	
+}
+public String getName() {
+	return department;
+}
+public void setName(String name) {
+	this.department = name;	
+}
+}
+
+//////////////////////////////////////////////
+package University;
+
+public class Students extends Departments {
+String name;
+int ID;
+public Student(String name, int ID) {
+	this.name=name;
+	this.ID=ID;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name=name;
+}
+public int getID() {
+	return ID;
+}
+public void setID(int ID) {
+	this.ID=ID;
+}
+}
+
+
+
